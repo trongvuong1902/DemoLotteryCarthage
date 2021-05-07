@@ -1,0 +1,6 @@
+module Pods_LotterySDK {
+  umbrella header "Pods-LotterySDK-umbrella.h"
+
+  export *
+  module * { export * }
+}

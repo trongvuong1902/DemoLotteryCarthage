@@ -1,0 +1,11 @@
+framework module LotterySDK {
+  umbrella header "LotterySDK.h"
+
+  export *
+  module * { export * }
+}
+
+module LotterySDK.Swift {
+    header "LotterySDK-Swift.h"
+    requires objc
+}

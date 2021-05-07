@@ -1,0 +1,28 @@
+{
+  "Mac" : [
+
+  ],
+  "watchOS" : [
+
+  ],
+  "tvOS" : [
+
+  ],
+  "commitish" : "98278deb65cc913790dcf90111fa602e5bd7d996",
+  "iOS" : [
+    {
+      "swiftToolchainVersion" : "5.4 (swiftlang-1205.0.26.9 clang-1205.0.19.55)",
+      "hash" : "408df73d8baab293374b43e445de6698b5c414cbe83d5bef0cb64e32612ed7f9",
+      "name" : "LotterySDK",
+      "container" : "LotterySDK.xcframework",
+      "identifier" : "ios-arm64_x86_64-simulator"
+    },
+    {
+      "swiftToolchainVersion" : "5.4 (swiftlang-1205.0.26.9 clang-1205.0.19.55)",
+      "hash" : "bb3169f34d15de03e11b0bc3c2460eb5675e319366f5fbfb9340ad64045dfc1e",
+      "name" : "LotterySDK",
+      "container" : "LotterySDK.xcframework",
+      "identifier" : "ios-arm64"
+    }
+  ]
+}

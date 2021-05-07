@@ -8,12 +8,67 @@
 
 /* Begin PBXBuildFile section */
 		37A5C3B22644E35400291A6E /* LotterySDK.h in Headers */ = {isa = PBXBuildFile; fileRef = 37A5C3B02644E35400291A6E /* LotterySDK.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		37A5C3BC2644E3D200291A6E /* TypeRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37A5C3B92644E3D200291A6E /* TypeRequest.swift */; };
+		37A5C3BD2644E3D200291A6E /* JSONResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37A5C3BA2644E3D200291A6E /* JSONResponse.swift */; };
+		37A5C3BE2644E3D200291A6E /* BridgeManagement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37A5C3BB2644E3D200291A6E /* BridgeManagement.swift */; };
+		37A5C3C02644E46200291A6E /* TrustWalletUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37A5C3BF2644E46200291A6E /* TrustWalletUtil.swift */; };
+		37A5C3EB2644EE4800291A6E /* LotterySDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37A5C3AD2644E35400291A6E /* LotterySDK.framework */; };
+		37A5C3EC2644EE4800291A6E /* LotterySDK.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 37A5C3AD2644E35400291A6E /* LotterySDK.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		F908A39CA156F50532B112F5 /* libPods-LotterySDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FAF8AAE0E1AB033CD9AB8678 /* libPods-LotterySDK.a */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		37A5C3DB2644E55800291A6E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 37A5C3A42644E35400291A6E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 37A5C3AC2644E35400291A6E;
+			remoteInfo = LotterySDK;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		37A5C3E82644EC1900291A6E /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		37A5C3ED2644EE4800291A6E /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				37A5C3EC2644EE4800291A6E /* LotterySDK.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		37A5C3AD2644E35400291A6E /* LotterySDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LotterySDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		37A5C3B02644E35400291A6E /* LotterySDK.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LotterySDK.h; sourceTree = "<group>"; };
 		37A5C3B12644E35400291A6E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		37A5C3B92644E3D200291A6E /* TypeRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TypeRequest.swift; sourceTree = "<group>"; };
+		37A5C3BA2644E3D200291A6E /* JSONResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSONResponse.swift; sourceTree = "<group>"; };
+		37A5C3BB2644E3D200291A6E /* BridgeManagement.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BridgeManagement.swift; sourceTree = "<group>"; };
+		37A5C3BF2644E46200291A6E /* TrustWalletUtil.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TrustWalletUtil.swift; sourceTree = "<group>"; };
+		37A5C3C52644E53400291A6E /* Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		37A5C3F02644F07E00291A6E /* libBigInt.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libBigInt.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		37A5C3F12644F07E00291A6E /* libSwiftProtobuf.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libSwiftProtobuf.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		37A5C3F22644F07E00291A6E /* libTrustSDK.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libTrustSDK.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		37A5C3F32644F07E00291A6E /* libTrustWalletCore.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libTrustWalletCore.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		37A5C3F82644F31400291A6E /* libSwiftProtobuf.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libSwiftProtobuf.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		37A5C3FA2644F31E00291A6E /* libPods-LotterySDK.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = "libPods-LotterySDK.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		38E0F5DD89F1EB5DB7C66CE1 /* Pods-LotterySDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LotterySDK.debug.xcconfig"; path = "Target Support Files/Pods-LotterySDK/Pods-LotterySDK.debug.xcconfig"; sourceTree = "<group>"; };
+		C8F987ACC81E2424D7FC0902 /* Pods-LotterySDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LotterySDK.release.xcconfig"; path = "Target Support Files/Pods-LotterySDK/Pods-LotterySDK.release.xcconfig"; sourceTree = "<group>"; };
+		FAF8AAE0E1AB033CD9AB8678 /* libPods-LotterySDK.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LotterySDK.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -21,6 +76,15 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F908A39CA156F50532B112F5 /* libPods-LotterySDK.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		37A5C3C22644E53400291A6E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37A5C3EB2644EE4800291A6E /* LotterySDK.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -32,6 +96,8 @@
 			children = (
 				37A5C3AF2644E35400291A6E /* LotterySDK */,
 				37A5C3AE2644E35400291A6E /* Products */,
+				9F135B02DEE59C546DB6D78B /* Pods */,
+				F3C725DADBF9FB28C966EE3C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -39,6 +105,7 @@
 			isa = PBXGroup;
 			children = (
 				37A5C3AD2644E35400291A6E /* LotterySDK.framework */,
+				37A5C3C52644E53400291A6E /* Example.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -46,10 +113,45 @@
 		37A5C3AF2644E35400291A6E /* LotterySDK */ = {
 			isa = PBXGroup;
 			children = (
+				37A5C3BF2644E46200291A6E /* TrustWalletUtil.swift */,
+				37A5C3BB2644E3D200291A6E /* BridgeManagement.swift */,
+				37A5C3B82644E3D200291A6E /* Model */,
 				37A5C3B02644E35400291A6E /* LotterySDK.h */,
 				37A5C3B12644E35400291A6E /* Info.plist */,
 			);
 			path = LotterySDK;
+			sourceTree = "<group>";
+		};
+		37A5C3B82644E3D200291A6E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				37A5C3B92644E3D200291A6E /* TypeRequest.swift */,
+				37A5C3BA2644E3D200291A6E /* JSONResponse.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		9F135B02DEE59C546DB6D78B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				38E0F5DD89F1EB5DB7C66CE1 /* Pods-LotterySDK.debug.xcconfig */,
+				C8F987ACC81E2424D7FC0902 /* Pods-LotterySDK.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		F3C725DADBF9FB28C966EE3C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				37A5C3FA2644F31E00291A6E /* libPods-LotterySDK.a */,
+				37A5C3F82644F31400291A6E /* libSwiftProtobuf.a */,
+				37A5C3F02644F07E00291A6E /* libBigInt.a */,
+				37A5C3F12644F07E00291A6E /* libSwiftProtobuf.a */,
+				37A5C3F22644F07E00291A6E /* libTrustSDK.a */,
+				37A5C3F32644F07E00291A6E /* libTrustWalletCore.a */,
+				FAF8AAE0E1AB033CD9AB8678 /* libPods-LotterySDK.a */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -70,10 +172,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 37A5C3B52644E35400291A6E /* Build configuration list for PBXNativeTarget "LotterySDK" */;
 			buildPhases = (
+				6D1EFC0C4C111353C0E0BC80 /* [CP] Check Pods Manifest.lock */,
 				37A5C3A82644E35400291A6E /* Headers */,
 				37A5C3A92644E35400291A6E /* Sources */,
 				37A5C3AA2644E35400291A6E /* Frameworks */,
 				37A5C3AB2644E35400291A6E /* Resources */,
+				37A5C3E82644EC1900291A6E /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -84,15 +188,39 @@
 			productReference = 37A5C3AD2644E35400291A6E /* LotterySDK.framework */;
 			productType = "com.apple.product-type.framework";
 		};
+		37A5C3C42644E53400291A6E /* Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 37A5C3D82644E53600291A6E /* Build configuration list for PBXNativeTarget "Example" */;
+			buildPhases = (
+				37A5C3C12644E53400291A6E /* Sources */,
+				37A5C3C22644E53400291A6E /* Frameworks */,
+				37A5C3C32644E53400291A6E /* Resources */,
+				37A5C3ED2644EE4800291A6E /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				37A5C3DC2644E55800291A6E /* PBXTargetDependency */,
+			);
+			name = Example;
+			productName = Example;
+			productReference = 37A5C3C52644E53400291A6E /* Example.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
 		37A5C3A42644E35400291A6E /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 1250;
 				LastUpgradeCheck = 1250;
 				TargetAttributes = {
 					37A5C3AC2644E35400291A6E = {
+						CreatedOnToolsVersion = 12.5;
+						LastSwiftMigration = 1250;
+					};
+					37A5C3C42644E53400291A6E = {
 						CreatedOnToolsVersion = 12.5;
 					};
 				};
@@ -111,6 +239,7 @@
 			projectRoot = "";
 			targets = (
 				37A5C3AC2644E35400291A6E /* LotterySDK */,
+				37A5C3C42644E53400291A6E /* Example */,
 			);
 		};
 /* End PBXProject section */
@@ -123,10 +252,53 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		37A5C3C32644E53400291A6E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6D1EFC0C4C111353C0E0BC80 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LotterySDK-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		37A5C3A92644E35400291A6E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37A5C3BD2644E3D200291A6E /* JSONResponse.swift in Sources */,
+				37A5C3C02644E46200291A6E /* TrustWalletUtil.swift in Sources */,
+				37A5C3BE2644E3D200291A6E /* BridgeManagement.swift in Sources */,
+				37A5C3BC2644E3D200291A6E /* TypeRequest.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		37A5C3C12644E53400291A6E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -134,6 +306,14 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		37A5C3DC2644E55800291A6E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 37A5C3AC2644E35400291A6E /* LotterySDK */;
+			targetProxy = 37A5C3DB2644E55800291A6E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		37A5C3B32644E35400291A6E /* Debug */ = {
@@ -260,7 +440,10 @@
 		};
 		37A5C3B62644E35400291A6E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 38E0F5DD89F1EB5DB7C66CE1 /* Pods-LotterySDK.debug.xcconfig */;
 			buildSettings = {
+				BUILD_LIBRARY_FOR_DISTRIBUTION = NO;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = 53222XWBPJ;
@@ -277,14 +460,19 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.fury.LotterySDK;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		37A5C3B72644E35400291A6E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C8F987ACC81E2424D7FC0902 /* Pods-LotterySDK.release.xcconfig */;
 			buildSettings = {
+				BUILD_LIBRARY_FOR_DISTRIBUTION = NO;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = 53222XWBPJ;
@@ -301,6 +489,45 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.fury.LotterySDK;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		37A5C3D62644E53600291A6E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 53222XWBPJ;
+				INFOPLIST_FILE = Example/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.fury.Example;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		37A5C3D72644E53600291A6E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 53222XWBPJ;
+				INFOPLIST_FILE = Example/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.fury.Example;
+				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -323,6 +550,15 @@
 			buildConfigurations = (
 				37A5C3B62644E35400291A6E /* Debug */,
 				37A5C3B72644E35400291A6E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		37A5C3D82644E53600291A6E /* Build configuration list for PBXNativeTarget "Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				37A5C3D62644E53600291A6E /* Debug */,
+				37A5C3D72644E53600291A6E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
